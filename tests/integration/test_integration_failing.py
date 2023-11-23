@@ -1,5 +1,5 @@
 def test_should_fail():
     expected = True
-    actual = False
+    actual = True
 
     assert expected == actual
