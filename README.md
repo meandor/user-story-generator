@@ -10,6 +10,12 @@ A _Python_ service that can create user stories, build with poetry.
 make install
 ```
 
+## To download a model
+```bash
+make model
+```
+This will download a mistral instruct model
+
 ## Tests and checks
 To run all tests and checks:
 ```bash

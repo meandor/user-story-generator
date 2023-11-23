@@ -55,5 +55,10 @@ integration-test: ## Runs all integration tests
 .PHONY: test
 test: unit-test integration-test ## Runs all tests
 
+.PHONY: model
+model: ## downloads the llm model
+	wget https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF/resolve/main/mistral-7b-instruct-v0.1.Q5_K_M.gguf \
+ 		-O ./resources/llm.gguf
+
 .PHONY: check
 check: auto-format lint type-check test ## Runs all code checks and tests
