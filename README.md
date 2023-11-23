@@ -16,6 +16,11 @@ make model
 ```
 This will download a mistral instruct model
 
+## To run locally
+```bash
+make run
+```
+
 ## Tests and checks
 To run all tests and checks:
 ```bash
