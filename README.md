@@ -1,8 +1,8 @@
 # User Story Generator
-A _Python_ [what am i?] that [what do i do?] build with poetry.
+A _Python_ service that can create user stories, build with poetry.
 
 ## Prerequisites
-* Python >= 3.7, you can use for example [pyenv](https://github.com/pyenv/pyenv#installation) to manage that
+* Python >= 3.12, you can use for example [pyenv](https://github.com/pyenv/pyenv#installation) to manage that
 * [Poetry](https://python-poetry.org/docs/#installation)
 
 ## Installing dependencies

@@ -65,3 +65,6 @@ dmypy.json
 # IDE
 .idea
 .vscode
+
+# ruff
+.ruff_cache

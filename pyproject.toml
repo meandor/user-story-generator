@@ -5,17 +5,12 @@ description = "Generate nice user stories based on a llm"
 authors = ["Daniel Schruhl <danielschruhl@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.12"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.0.0"
-black = "^23.1.0"
-pylint = "^2.16.0"
 pytest = "^7.2.0"
-isort = "^5.12.0"
-
-[tool.isort]
-profile = "black"
+ruff = "^0.1.6"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
