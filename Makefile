@@ -62,3 +62,7 @@ model: ## downloads the llm model
 
 .PHONY: check
 check: auto-format lint type-check test ## Runs all code checks and tests
+
+.PHONY: run
+run: ## Runs the server in development mode
+	poetry run flask --app 'user_story_generator.presentation.endpoint:start_server()' run

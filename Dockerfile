@@ -9,4 +9,4 @@ ENV PYTHONPATH=/usr/src/app
 RUN useradd -M -s /bin/bash user_story_generator && chown -R user_story_generator:user_story_generator /usr/src/app
 USER user_story_generator
 
-CMD [ "python", "user_story_generator/main.py" ]
+CMD [ "gunicorn", "'user_story_generator.presentation.endpoint:start_server()'" ]
