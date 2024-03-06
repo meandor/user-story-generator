@@ -7,7 +7,7 @@ authors = ["Daniel Schruhl <danielschruhl@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.12"
 llama-cpp-python = "^0.2.19"
-langchain = "^0.0.340"
+langchain = "^0.1.11"
 flask = "^3.0.0"
 gunicorn = "^21.2.0"
 
